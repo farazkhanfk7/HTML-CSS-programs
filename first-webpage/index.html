@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mysite</title>
+        <meta name="author" content="Faraz Khan">
+        <style>
+            body{
+                margin:0;
+                background-color: rgb(214, 216, 216);
+                
+            }
+            .hr{
+              background-color: rgb(228, 116, 25);
+              font-size : 40px;
+              font-stretch: expanded;
+              color: rgb(245, 237, 226);
+              text-align: center;
+              font-family:Impact, 'Arial Narrow Bold', sans-serif;
+              padding:15px;
+            }
+            .list1{
+                background-color: black;
+                margin:0;
+            }
+            .list-item{
+               list-style: none;
+               padding:20px;
+               margin:auto;
+               text-align: center;
+               width:100%
+            }
+            .list-item li{
+                display: inline;
+                
+            }
+            .list-item a{
+                font-size:20px;
+                color:white;
+                font-family: Arial, Helvetica, sans-serif;
+                padding:20px;
+                text-decoration: none;
+                
+            }
+            .list-item a:hover{
+                font-size:20px;
+                color: rgb(228, 116, 25);
+                font-family: Arial, Helvetica, sans-serif;
+                padding:20px;
+                text-decoration: none;
+            }
+            .list-item a:active{
+                font-size:20px;
+                color: rgb(25, 187, 228);
+                font-family: Arial, Helvetica, sans-serif;
+                padding:20px;
+                text-decoration: none;
+            }
+            .heading{
+                background-image:url("coral4.jpg");
+                min-height:314px;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+                margin-bottom: 30px;
+                text-align: center;
+                width:100%;
+                margin:auto;
+            }
+            .heading h1{
+                margin:0;
+                color:rgb(245, 237, 226);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding-top:75px;
+                font-size:60px;
+                opacity: 0.5;
+                width:100%;
+                margin:auto;
+            }
+            .all-text{
+                width:80%;
+                margin:auto;
+                margin-top:20px;
+                margin-bottom:20px;
+                
+            }
+            .first-text{
+                float:left;
+                width:70%;
+                background-color: rgb(177, 176, 176);
+                padding:20px;
+                border:3px solid rgb(148, 147, 147);
+                border-radius: 15px;
+                box-sizing : border-box;
+            }
+            .formstyle{
+                float: right;
+                width:30%;
+                background-color: rgb(110, 109, 109);
+                padding:20px;
+                padding-bottom:15px;
+                box-sizing : border-box;
+                border-radius:15px;
+                margin-bottom:10px;
+            }
+            .a{
+                padding-bottom:10px;
+                width:100%
+            }
+            .a input{
+                padding:2px;
+            }
+            .a input[type="email"]{
+                width:100%;
+            }
+            .a input[type="password"]{
+                 width:100%;
+            }
+            .a input[type="button"]:hover{
+                background-color: rgb(228, 116, 25);
+                color: black;
+                border:2px solid rgb(238, 118, 19)
+            }
+            .footer1{
+                margin-top:130px;
+                background-color: black;
+                color:white;
+                font-size:20px;
+                padding:15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                margin-bottom:0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hr">
+        <header>My Website</header>
+        </div>
+        <nav>
+            <div class="list1">
+                <ul class="list-item">
+                    <li ><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="heading">
+            <div>
+            <h1>Welcome to our Website</h1>
+            </div>
+        </section>
+        <br>
+        <section class="all-text">
+            <div class="first-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, blanditiis porro iure laudantium quidem nulla nemo fugit voluptas excepturi, iste suscipit quisquam necessitatibus? Ab voluptates inventore numquam culpa deleniti harum.</p>
+            </div>
+            <div class="formstyle">
+                <form>
+                    <div class="a">
+                        <label>
+                            <input type="email"  placeholder="Enter your email here" name="email">
+                        </label>
+                    </div>
+                    <div class="a">
+                        <label>
+                            <input type="password" placeholder="Enter password" name="password">
+                        </label>
+                    </div>
+                    <div class="a">
+                        <input type="button" value="Log in" ></input>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="footer1">
+            <footer>
+                <p1> Copyright &copy; 2019 Faraz</p1>
+            </footer>
+        </section>
+    </body>
+</html>
