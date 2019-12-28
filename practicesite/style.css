@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    background-color: rgba(232, 238, 243, 0.911);
+}
+.hr{
+    background-image:url("c.png");
+    background-attachment: fixed;
+    background-size: cover;
+    font-size:50px;
+    font-stretch: expanded;
+    font-family: cursive;
+    text-align: center;
+    padding: 25px;
+    color: azure;
+}
+.list1{
+    margin:0;
+    background-image:url("b.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.listitem{
+     list-style: none;
+     margin:0;
+     padding:15px;
+     text-align: center;
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     width:100%;
+}
+.listitem li{
+    display: inline;
+    padding:50px;
+    width:100%;
+}
+.listitem a{
+    color: azure;
+    text-decoration:none;
+}
+.listitem a:hover{
+    color:rgb(81, 212, 245);
+}
+.headpic{
+    background-image: url("e.jfif");
+    margin:0;
+    padding:50px;
+    text-align: center;
+    font-size: 40px;
+    color:azure;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height:314px;
+    width:100%;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.info{
+    float:left;
+    width:70%;
+    box-sizing:border-box;
+    padding:20px;
+    border-radius: 15px;
+    background-image:url("b.png");
+    background-attachment: fixed;
+    background-size: cover;
+    color: blanchedalmond;
+}
+.formc{
+    float:right;
+    width:30%;
+    box-sizing:border-box;
+    border: 3px rgb(15, 172, 235) solid;
+    border-radius: 15px;
+    padding:30px;
+
+}
+.sect{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.borderseparator{
+    margin-right: 40px;
+}
+.a{
+    padding-bottom:10px;
+    width:100%;
+}
+.a input{
+    padding-right:10px;
+    width:100%;
+}
+.a input[type="email"]{
+    padding:5px;
+}
+.a input[type="password"]{
+    padding:5px;
+    margin-bottom:10px;
+}
+.a button{
+    padding:3px;
+    font-family: cursive;
+    color:beige;
+    background-color:rgb(60, 190, 250);
+}
+.a button:hover{
+    padding:3px;
+    font-family: cursive;
+    color:rgb(60, 190, 250);;
+    background-color:white;
+}
+.fut{
+    margin-top:160px;
+    background-image:url("d.png");
+    background-size: cover;
+    padding:10px;
+    font-family: cursive;
+    color:blanchedalmond;
+    font-size:25px;
+    text-align:center;
+    width:100%;
+}
+@media(max-width:600px){
+    .info{
+        float:none;
+        width:100%;
+        box-sizing:border-box;
+        padding:20px;
+        border-radius: 15px;
+        background-image:url("b.png");
+        background-attachment: fixed;
+        background-size: cover;
+        color: blanchedalmond;
+        margin-bottom:10px;
+    }
+    .formc{
+    float:none;
+    width:100%;
+    box-sizing:border-box;
+    border: 3px rgb(15, 172, 235) solid;
+    border-radius: 15px;
+    padding:30px;
+    }
+}
+@media(max-width:830px){
+    .listitem li{
+    display: inline;
+    padding:12px;
+    width:100%;
+}
+}
